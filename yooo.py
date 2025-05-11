@@ -43,8 +43,8 @@ def bounce_paddle(paddle):
     SPEED_X = -SPEED_X * ACCELERATION
 
 
-racket1 = Player(racket_img, 30 , 0, 12, 250, 8)
-racket2 = Player(racket_img, 470 , 0, 12, 250, 8)
+racket1 = Player(racket_img, 30 , 0, 12, 75, 8)
+racket2 = Player(racket_img, 470 , 0, 12, 75, 8)
 ball = GameSprite(ball_img, 250, 250, 50, 50,8)
 
 back = (255,255,255)
@@ -57,7 +57,7 @@ window.fill(back)
 finish = False
 run = True
 
-INIT_SPEED = 4
+INIT_SPEED = 5
 MAX_SPEED = 8
 ACCELERATION = 1.05
 
